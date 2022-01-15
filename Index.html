@@ -3,10 +3,176 @@
 <head>
   <meta charset="utf-8">
   <title>Ciarán Adams</title>
-  <meta name="description" content="Home">
+  <meta name="description" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="icon" href="imgs/icon.png">
 </head>
+
 <body>
-  <script src="js/scripts.js"></script>
+  <!--Main Logo-->
+  <header>
+    <div> 
+      <img src="imgs/logo.png" class="main_logo">
+    </div>
+  </header>
+
+  <!--Navbar-->
+  <div class="topnav">  
+    <a href="#home">Home</a>
+    <a href="#Aboutme">About me</a>
+    <a href="#History">History</a>
+    <a href="#MyProjects">My Projects</a>
+    <a href="#Contact">Contact</a>
+  </div>
+
+  <!--About me-->
+
+  <div class="row">
+    <div class="column left" style="background-color:#feca1d;">
+      <p class="title">About</p>
+      <img src="/images/fundraise.png" class="logo">
+      <p class="text"> This is the portfolio of Ciarán Adams which includes a list of employment History
+         and education History. Additionally detailed descriptions of my Projects including links to Git, LinkedIn and Email.
+      </p>
+      <button class="button button1">About Me </button>
+    </div>
+    <div class="column middle" style="background-color:#000000;">
+      <p class="title2">My History</p>
+      <img src="/images/work.png" class="logo">
+      <p class="text2">As a recent BSc Computer Science graduate from Liverpool Hope University I have completed many Projects,
+        most of which can be found on git. Too se a detailed description of my projects navigate to the "Projects" or click the 
+        button below.
+      </p>
+      <button class="button button2">History</button>
+    </div>
+    <div class="column right" style="background-color:#feca1d;">
+      <p class="title">My Projects</p>
+      <img src="/images/donate.png" class="logo">
+      <p class="text">As a recent BSc Computer Science graduate from Liverpool Hope University I have completed many Projects,
+        most of which can be found on git. Too se a detailed description of my projects navigate to the "Projects" or click the 
+        button below.</p>
+      <button class="button button1">Projects</button>
+    </div>
+  </div>
+  
+  
+  <!--News and Top Donators-->
+  
+  <div class="row">
+    <div class="column left2" style="background-color: #feca1d;">
+      <p class="title">News</p>
+      <img src="/images/news.png" class="logo" style="width:7%;margin-bottom: 1%;">
+      <article class="forecast">
+        <article class="day-forecast">
+            <h2 class="text3">Welsh dog rescue in crisis as owners make shelters 'take responsibility for their mistakes</h2>
+            <p class="text3">18/11/2021 <br>
+              'We're a small kennels - we can't take responsibility for your mistake' <br>
+              <a href="#https://www.walesonline.co.uk/news/wales-news/welsh-dog-rescue-crisis-owners-22173752" class="text">Read More</a>
+            </p>
+        </article>
+        <article class="day-forecast">
+            <h2 class="text3">After record adoptions at start of pandemic, animal shelters report overcrowding</h2>
+            <p class="text3">14/11/2021<br>
+              “I know a lot of the calls I’ve been fielding lately have been people who have lost their home or apartment,” <br>
+              <a href="#https://www.thedenverchannel.com/news/national/after-record-adoptions-at-start-of-pandemic-animal-shelters-report-overcrowding" class="text3">Read More</a>
+            </p>
+        </article>
+        <article class="day-forecast">
+            <h2>10/11/2021</h2>
+            <p>find something</p>
+        </article>
+    </article>
+    <button class="button button1">View More</button>
+    </div>
+    <div class="column right2" style="background-color: #feca1d;">
+      <p class="title">Top Accomplishments</p>
+      <img src="/images/top.png" class="logo">
+      <p class="text"> Below is a list of some of my personal favourite accomplishments. Collectively, these accomplishments are something I am extremely proud of and hope to improve upon in the future</p>
+      <ol class="text3">
+        <br>
+        <li>Graduated 2:1 BSc Computer Science</li>
+        <li>Successfully completed Dissertation exceeding Hypothesis</li>
+        <li>Accepted into University</li>
+        <li>Personal Project Completed "Text Based Game"</li>
+        <li>First Python Programme "Snake"</li>
+        <li>First Java Programme "Pong"</li>
+        <li>Completed A-Level's</li>
+        <li>Completed GCSE's</li>
+        <li>Built my first PC</li>
+        <li>3rd Place in Young Person's Photography Competition of NI </li>
+        <br>
+        
+      </ol>
+      <button class="button button1">Full List</button>
+    </div>
+  </div>
+  </div>
+  
+  <!--Email Updates and -->
+  <div class="row">
+    <div class="column left3" style="background-color:#000000;">
+      
+      <form action="action_page.php">
+        <div class="container">
+          <p class="title2">Subscribe to Emails</p>
+          <img src="/images/email.png" class="logo">
+        </div>
+      
+        <div class="container" style="background-color:#feca1d">
+          <input type="text" placeholder="Name" name="name" required>
+          <input type="text" placeholder="Email address" name="mail" required>
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+          </label>
+        </div>
+      
+        <div class="container">
+          <input type="submit" value="Subscribe">
+        </div>
+      </form>
+      <button class="button button2">My Rights</button>
+    </div>
+    <div class="column right3" style="background-color:#000000;">
+      <p class="title2">Updates</p>
+      <img src="/images/paw.png" class="logo" style="width:7%;margin-bottom: 1%;">
+      <br>
+      <p class="text2"> Started Udemy Course - January 2022 </p>
+      <p class="text2"> Updated Multiple git Projects - January 2022 </p>
+      <p class="text2"> Left Home Bargains to Focus on upskilling - Novermber 2021 </p>
+      <p class="text2"> Graduated My Degress with a 2:1 - July 2021 </p>
+      <p class="text2"> Started HomeBargains - October 2020 </p>
+      <p class="text2"> Left McDonalds - October 2020 </p>
+      <p class="text2"> Moved to Liverpool - September 2017 </p>
+      <p class="text2"> Accepted into Liverpool Hope University - July 2016 </p>
+      <p class="text2"> Started Working at McDonald's - June 2016 </p>
+  
+      <button class="button button2">View All</button>
+      
+    </div>
+  </div>
+  
+  <!--Footer-->
+  <div id ="container"class="footer">
+    <div class="row">
+      <div class="column" style="background-color: #feca1d;">
+        <h2 class="title">Quick Links</h2>
+  
+        
+      </div>
+      <div class="column" style="background-color:#feca1d;">
+        <h2 class="title">Please Donate</h2>
+  
+  
+      </div>
+      <div class="column" style="background-color:#feca1d;">
+        <h2 class="title">Social Media</h2>
+       
+      </div>
+    </div>
+    
+  </div>
+
+
+
 </body>
 </html>
