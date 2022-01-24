@@ -35,6 +35,7 @@
   
 }
 
+
 @media (max-width: 600px) {
   .main_logo{
     width: 50%;
@@ -117,11 +118,9 @@ body {
   position: relative;
   text-align: center;
   color: white;
-  
-  
-
-
 }
+
+
 
 .centered {
   position: absolute;
@@ -213,6 +212,15 @@ body {
   border-radius: 15px;
   border-style: solid;
   border-color: #feca1d;
+}
+
+.column.other {
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 80%;
+  border-radius: 15px;
+  border-style: solid;
 }
 
 /* Clear floats after the columns */
